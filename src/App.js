@@ -19,7 +19,7 @@ class App extends React.Component {
     handleSubmit = async(searchterm) =>{
         const response = await axios.get("https://www.googleapis.com/youtube/v3/search",{
             params:{
-                key: 'AIzaSyAcaEefYZwhsDglSAffWve8wGCqOxIpPhQ',
+                key: '[your_youtube_API_Key_Here]',
                 part: 'snippet',
                 maxResults: 20,
                 q: searchterm
