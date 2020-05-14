@@ -1,0 +1,120 @@
+.HeadingGrid{
+    position:sticky;
+    top: 0;
+    right:0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    background:#fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    width:inherit;
+    z-index: 9999;
+}
+.HeadingGrid .HeadingLogo{
+    position: relative;
+    box-shadow: none;
+    border-radius:0 !important;
+    border: 0;
+    margin-left:-10%;
+    top:2px;
+}
+.HeadingGrid .HeadingLogo .headingLogoLink{
+    position: relative;
+    color:#000;
+    text-decoration: none;
+    box-shadow: none;
+}
+.HeadingGrid .HeadingLogo .headingLogoLink .headingLogoPaper{
+    box-shadow: none;
+    font-size:1.8em;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+
+/* serach bar  */
+.HeadingGrid .searchBar{
+    position: relative;
+}
+.HeadingGrid .searchBar .searchForm{
+    display: flex;
+    align-items: center;
+    /* justify-content: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    padding:10px 15px; */
+}
+.HeadingGrid .searchBar .searchForm .searchField{
+    height:30px;
+    width: 450px;
+    padding:10px;
+    color: #000;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 0.99em;
+}
+.HeadingGrid .searchBar .searchForm .searchField::placeholder{
+    color: #000;
+}
+.HeadingGrid .searchBar .searchForm .searchField:focus::placeholder{
+    color: #666;
+}
+.HeadingGrid .searchBar .searchForm .searchBtn{
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    padding:5px;
+    cursor: pointer;
+    font-weight: 750;
+    font-family: sans-serif;
+    background:rgb(5, 149, 233);
+    border-color:rgb(5, 149, 233);
+    border-width: 2px;
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+}
+/* profile */
+.HeadingGrid .profile{
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    top:-2%;
+}
+.HeadingGrid .profile .profilePaper{
+    box-shadow: none;
+    font-family: sans-serif;
+    font-size: 1.4em;
+    font-weight: 650;
+}
+.HeadingGrid .profile .profilePaper span{
+    color:#017bf5;
+}
+/* bars */
+.HeadingGrid .barsHeading{
+    position: relative;
+    border-radius: 0;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:30px;
+    width:38px;
+    margin:0;
+    margin-left:-5%;
+    right: 2px;
+    cursor: pointer;
+}
+.HeadingGrid .barsHeading div{
+    display: block;
+    height:4px;
+    width:80%;
+    background:#444;
+    margin-bottom:2px;
+    margin-top:1px;
+}
+.HeadingGrid .barsHeading:hover{
+    background:rgba(0, 0, 0, 0.02);
+}
